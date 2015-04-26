@@ -243,10 +243,11 @@ a#link3 {
 }
 
 .pct1 {
-    height: 150px;
+    height: 90px;
     content: url("../images/mcps.png");
     position: relative;
     top: 25px;
+    left: 9px;
 }
 
 ul.certification {
@@ -263,13 +264,13 @@ ul.certification {
     font-size: 15px;
     font-weight: bold;
     position: relative;
-    bottom: 100px;
-    left: 30px;
+    bottom: 40px;
+    left: 50px;
 }
 
-.pct1:hover {
-    -moz-box-shadow: 0 0 10px #ccc;
-    -webkit-box-shadow: 0 0 10px #ccc;
-    box-shadow: 0 0 10px #ccc;
+.hvr-grow-shadow:hover {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 1);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 

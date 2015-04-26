@@ -1,0 +1,6 @@
+---
+applications:
+- name: resume-html
+  memory: 512M
+  instances: 2
+  buildpack: https://github.com/cloudfoundry-community/staticfile-buildpack.git

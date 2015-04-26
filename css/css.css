@@ -33,7 +33,7 @@ a {
 
 textarea {
     height: 100px;
-    width: 500px;
+    width: 490px;
     resize: none;
 }
 
@@ -203,11 +203,13 @@ div.picture3 {
 }
 
 #your-name {
-    width: 500px;
+    width: 490px;
+    line-height: 35px;
 }
 
 #email-address {
-    width: 500px;
+    width: 490px;
+    line-height: 35px;
 }
 
 ul.skills {
@@ -273,4 +275,20 @@ ul.certification {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
+
+input[placeholder] {
+    font: 15px Consolas, sans-serif;
+}
+
+textarea [placeholder] {
+    font: 15px Consolas, sans-serif;
+}
+
+textarea::-webkit-input-placeholder {
+    font: 15px Consolas, sans-serif;
+    position: relative;
+    top: 5px;
+}
+
+:focus::-webkit-input-placeholder {color: transparent}
 
